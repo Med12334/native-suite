@@ -19,12 +19,17 @@ void engine_destroy(EngineContext* engine) {
 }
 
 int32_t engine_get_version(void) {
-    return 100;
+    return 200;
 }
 
-uint32_t engine_compute(EngineContext* engine, const uint8_t* data, size_t len) {
+uint64_t engine_hash_buffer(EngineContext* engine, const uint8_t* data, size_t len) {
     if (!engine || !engine->engine) return 0;
     return engine->engine->process_stream(data, len);
+}
+
+uint64_t engine_get_metrics(EngineContext* engine) {
+    if (!engine || !engine->engine) return 0;
+    return engine->engine->get_total_processed();
 }
 
 }

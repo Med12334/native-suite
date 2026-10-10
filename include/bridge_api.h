@@ -13,7 +13,8 @@ typedef struct EngineContext EngineContext;
 EngineContext* engine_create(void);
 void engine_destroy(EngineContext* engine);
 int32_t engine_get_version(void);
-uint32_t engine_compute(EngineContext* engine, const uint8_t* data, size_t len);
+uint64_t engine_hash_buffer(EngineContext* engine, const uint8_t* data, size_t len);
+uint64_t engine_get_metrics(EngineContext* engine);
 
 #ifdef __cplusplus
 }
