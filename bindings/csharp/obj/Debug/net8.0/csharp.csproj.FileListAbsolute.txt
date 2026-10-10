@@ -1,0 +1,14 @@
+/public/native_suite/bindings/csharp/bin/Debug/net8.0/csharp
+/public/native_suite/bindings/csharp/bin/Debug/net8.0/csharp.deps.json
+/public/native_suite/bindings/csharp/bin/Debug/net8.0/csharp.runtimeconfig.json
+/public/native_suite/bindings/csharp/bin/Debug/net8.0/csharp.dll
+/public/native_suite/bindings/csharp/bin/Debug/net8.0/csharp.pdb
+/public/native_suite/bindings/csharp/obj/Debug/net8.0/csharp.GeneratedMSBuildEditorConfig.editorconfig
+/public/native_suite/bindings/csharp/obj/Debug/net8.0/csharp.AssemblyInfoInputs.cache
+/public/native_suite/bindings/csharp/obj/Debug/net8.0/csharp.AssemblyInfo.cs
+/public/native_suite/bindings/csharp/obj/Debug/net8.0/csharp.csproj.CoreCompileInputs.cache
+/public/native_suite/bindings/csharp/obj/Debug/net8.0/csharp.dll
+/public/native_suite/bindings/csharp/obj/Debug/net8.0/refint/csharp.dll
+/public/native_suite/bindings/csharp/obj/Debug/net8.0/csharp.pdb
+/public/native_suite/bindings/csharp/obj/Debug/net8.0/csharp.genruntimeconfig.cache
+/public/native_suite/bindings/csharp/obj/Debug/net8.0/ref/csharp.dll

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -Wl,--dependency-file,CMakeFiles/native_core.dir/link.d -shared -Wl,-soname,libnative_core.so -o libnative_core.so CMakeFiles/native_core.dir/src/layer1_c/raw_buffer.c.o CMakeFiles/native_core.dir/src/layer2_cpp/engine_core.cpp.o CMakeFiles/native_core.dir/src/layer3_bridge/bridge_api.cpp.o
