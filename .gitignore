@@ -4,5 +4,6 @@ obj/
 *.so
 *.dylib
 *.dll
+*.pdb
 *.o
 *.a
