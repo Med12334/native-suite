@@ -1,0 +1,31 @@
+name: Build & Test Native Suite
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up .NET 8 SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Configure CMake
+        run: cmake -B build -S .
+
+      - name: Build Native Core Library (C/C++)
+        run: cmake --build build --config Release
+
+      - name: Run C# Managed Interop Pipeline
+        run: |
+          cd bindings/csharp
+          dotnet run
