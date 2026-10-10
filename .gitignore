@@ -1,0 +1,8 @@
+build/
+bin/
+obj/
+*.so
+*.dylib
+*.dll
+*.o
+*.a

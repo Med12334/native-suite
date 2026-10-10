@@ -1,3 +1,0 @@
-/public/native_suite/build/CMakeFiles/native_core.dir
-/public/native_suite/build/CMakeFiles/edit_cache.dir
-/public/native_suite/build/CMakeFiles/rebuild_cache.dir
